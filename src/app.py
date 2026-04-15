@@ -7,7 +7,7 @@ if __name__ == '__main__':
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("index.html", nombre_usuario = "Jroge Ballesteros")
 
 @app.route("/lista-clientes")
 def listaClientes():
